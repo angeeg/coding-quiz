@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5><a href="index.html">Back to Quiz</a></h5>
+    <h1>High Scores</h1>
+    <ol id="scores">
+
+    </ol>
+  <script>
+      var scores = JSON.parse(localStorage.getItem("highscore")) || []
+      var scoresEl = document.getElementById("scores")
+      scores = scores.sort((a,b) => b.split(" ")[1] - a.split(" ")[1])
+      for (var i = 0; i < scores.length ; i++) {
+        var li =  document.createElement("li")
+        li.textContent = scores[i]
+        scoresEl.appendChild(li)
+      }
+  </script>  
+</body>
+</html>

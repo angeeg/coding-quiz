@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/quiz.css">
+ <title>Document</title>
+</head>
+<body>
+    <header>
+        <h5 id="gameOver" class="highscores"><a href="highscore.html">View High Scores</a></h5>
+        <div class="timer">
+            Timer: 
+            <span id="timerEl"></span>
+        </div>
+    </header>
+    <div id="welcome" class="welcome">
+        <h1>Welcome to the Coding Quiz!</h1>
+        <p>Try to answer the following code-related questions within the time limit. 
+        Keep in mind that incorrect answers will penalize your score and time by ten seconds!
+        </p>
+        <button class="start">Start Quiz</button>
+
+    </div>
+    <div id="question-section" class="hide">
+        <h2 id="question">Commenly used data types DO NOT include:</h2>
+            <button class="answer" id="ans_one">1. strings</button>
+            <button class="answer" id="ans_two">2. booleans</button>
+            <button class="answer" id="ans_three">3. alerts</button>
+            <button class="answer" id="ans_four">4. numbers</button>
+    </div>
+
+    <footer id="wrongCorrectAnswer" class="footer">
+
+    </footer>
+
+
+    <script src="./assets/js/quiz.js"></script>
+</body>
+    
+</html>
+
+
+
+
+
