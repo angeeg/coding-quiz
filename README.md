@@ -8,7 +8,7 @@ Ready to test your javascript knowledge? Participate in this coding quiz to put 
 3. Open the cloned repo in your code editor. 
 4. Right click in the 'index.html' file and select 'Open in Default Browser' to open the application in your web browser.
 ## Usage 
-View the live website [here](https://angeeg.github.io/password-generator/). Follow the prompts to generate your unique password.
+View the live website [here](https://github.com/angeeg/coding-quiz). Follow the prompts to generate your unique password.
 
 Compare your javascript knowledge with fellow coders in this quick and easy javascript coding quiz. 
 <img src="coding-quiz-screenshot.png">
